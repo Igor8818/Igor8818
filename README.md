@@ -48,5 +48,6 @@ Trabalho na construção de aplicações práticas e de alto desempenho — desd
 
 ### 📬 Contato
 
+- **LinkedIn:** [linkedin.com/in/igorhagge](https://www.linkedin.com/in/igorhagge/)
 - **E-mail:** [igor.senna2@hotmail.com](mailto:igor.senna2@hotmail.com)
 - **GitHub:** [@Igor8818](https://github.com/Igor8818)
