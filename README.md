@@ -1,6 +1,6 @@
 # Igor Hagge
 
-Desenvolvedor de software com foco em **Android nativo (Kotlin)**, **Visão Computacional embarcada (Edge AI)** e **desenvolvimento Web**.
+Desenvolvedor de software com projetos em **Android nativo (Kotlin)**, **Visão Computacional embarcada (Edge AI)** e **desenvolvimento Web**.
 
 Trabalho na construção de aplicações práticas e de alto desempenho — desde sistemas móveis operando 100% offline com modelos de inteligência artificial para pesquisa em campo, até interfaces web responsivas, limpas e com foco em conversão.
 
