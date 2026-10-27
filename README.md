@@ -31,10 +31,6 @@ Trabalho na construção de aplicações práticas e de alto desempenho — desd
   - Interface contemporânea em Dark Theme com animações suaves de rolagem (*Scroll Reveal*).  
   `HTML5` &bull; `CSS3 (Flexbox / Grid)` &bull; `JavaScript`
 
-- **[mecaniQA-Manaus](https://github.com/Igor8818/mecaniQA-Manaus)**  
-  Ambiente de pesquisa e experimentos em Ciência de Dados e Processamento de Linguagem Natural (NLP) desenvolvido em conjunto com o grupo MANAUS.  
-  `Python` &bull; `Jupyter Notebook`
-
 ---
 
 ### 🛠️ Tecnologias & Domínios
