@@ -1,57 +1,53 @@
 # Igor Hagge
 
-Desenvolvedor de software com projetos em **Mobile (Android nativo Kotlin & React Native/Expo)**, **Visão Computacional embarcada (Edge AI)** e **desenvolvimento Web**.
+Desenvolvedor de Software focado em **Engenharia Mobile (Android Nativo Kotlin & React Native)**, **Back-end Corporativo (Java 21 / Spring Boot 3)** e **Visão Computacional Embarcada (Edge AI)**.
 
-Trabalho na construção de aplicações práticas e de alto desempenho — desde sistemas móveis operando 100% offline com banco de dados local e modelos de inteligência artificial em campo, até interfaces web responsivas, limpas e com foco em conversão.
+Trabalho na concepção e entrega de sistemas de alto desempenho do mundo real — desde aplicações operando 100% offline com inferência de inteligência artificial em campo, até APIs resilientes com arquiteturas limpas, testes automatizados e integração em nuvem.
 
 ---
 
-### 💼 Projetos em Destaque
+### 💼 Ecossistema em Destaque: CEPEC / CEPLAC
 
-- **[CacauApp](https://github.com/Igor8818/CacauApp)**  
-  Aplicativo Android nativo desenvolvido para o **CEPEC (Centro de Pesquisas do Cacau) / CEPLAC** para contagem automatizada e monitoramento biométrico de frutos de cacaueiro.  
-  - Operação 100% offline utilizando modelos **YOLO (TensorFlow Lite)** com aceleração por GPU Delegate;
-  - Tela de auditoria científica para adição/remoção manual de marcações (*bounding boxes*) sobre fotos em alta resolução;
-  - Modo Rota com suporte a planilhas de planejamento agronômico (FieldBook);
-  - Georreferenciamento via GPS e exportação de relatórios em CSV compatíveis com Excel pt-BR.  
-  `Kotlin 2.0` &bull; `Jetpack Compose` &bull; `CameraX` &bull; `TensorFlow Lite` &bull; `Material 3` &bull; `MVVM`
+Solução integrada de ponta a ponta desenvolvida para pesquisa agronômica e melhoramento genético de cacaueiros:
 
-- **[FocusLift](https://github.com/Igor8818/focuslift)**  
-  Aplicativo mobile *Offline-First* para anotação de cargas, acompanhamento de sobrecarga progressiva, cálculo de 1RM e gestão de hábitos de recuperação na academia.  
-  - Sessão de treino com comparativo automático em relação ao treino anterior, detecção instantânea de recordes pessoais (PRs), escala RPE e calculadora visual de anilhas;
-  - Parser inteligente para importação de fichas de treino diretamente de textos do WhatsApp/notas e biblioteca de periodizações (*Push/Pull/Legs*, *Upper/Lower*, *Full Body*);
-  - Sincronização incremental na nuvem com diff por hash (FNV-1a), restauração bidirecional (`SQLite ↔ Cloud Firestore`) com regras RLS e exportação/importação de planilhas CSV (RFC 4180);
-  - Suporte nativo a 5 idiomas (`PT`, `EN`, `ES`, `DE`, `FR`), unidades `kg/lbs`, geração de *Story Cards* compartilháveis e arquitetura de monetização *In-App Purchases* via RevenueCat.  
-  `React Native` &bull; `Expo` &bull; `TypeScript` &bull; `SQLite` &bull; `Firebase (Auth & Firestore)` &bull; `RevenueCat` &bull; `Vitest`
+- **[📱 CacauApp (Mobile + Edge AI)](https://github.com/Igor8818/CacauApp)**  
+  Aplicativo Android nativo desenvolvido para o **Centro de Pesquisas do Cacau (CEPEC/CEPLAC)** para auditoria e contagem biométrica em campo:
+  - Detecção fitossanitária on-device a 30+ FPS via modelos **YOLOv8 (TensorFlow Lite)** com aceleração por CPU multithread e GPU Delegate;
+  - Tela de revisão interativa (*Human-in-the-Loop*) permitindo classificação individual de frutos (*Sadio*, *Vassoura de Bruxa*, *Podridão Parda*) e marcações manuais;
+  - Operação 100% offline com Modo Rota guiada por planilhas (*FieldBook*), georreferenciamento GPS e exportação CSV (RFC 4180);
+  - Sincronização direta com a API central via HTTP/OkHttp com correção de orientação EXIF e controle anti-OOM.  
+  `Kotlin 2.0` &bull; `Jetpack Compose` &bull; `CameraX` &bull; `TensorFlow Lite` &bull; `YOLOv8` &bull; `Material 3` &bull; `MVVM`
 
-- **[Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)**  
-  Landing page profissional desenvolvida para consultório especializado em Podologia Clínica, Laserterapia e Tratamento Avançado de Feridas em Itabuna/BA.  
-  - Design asséptico e moderno com foco em credibilidade médica e taxa de conversão;
-  - Player embutido de Reels reais de procedimentos com controle de som interativo;
-  - Seções de atendimento presencial e domiciliar (*Home Care*), acordeão dinâmico de FAQ e integração com WhatsApp;
-  - Hospedagem estática com entrega rápida via Edge CDN.  
-  `Tailwind CSS` &bull; `JavaScript (Vanilla ES6+)` &bull; `HTML5` &bull; `Vercel`
+- **[🌱 CacauSync API (Back-end Corporativo)](https://github.com/Igor8818/CacauSync)**  
+  API REST central para ingestão de coletas de campo, upload de fotos e consolidação estatística de ensaios agronômicos:
+  - Arquitetura limpa em camadas, imutabilidade com `Java Records` e tratamento de erros padronizado (**RFC 7807**);
+  - Ingestão em lote via JSON (com caixas delimitadoras) e CSV, garantindo **idempotência estrita** contra duplicidades;
+  - Banco relacional PostgreSQL 16 com migrações versionadas via **Flyway** e testes unitários/integração com **JUnit 5 + Mockito** (35 testes aprovados);
+  - Segurança *stateless* com Bearer Token JWT e containerização completa com **Docker & Docker Compose**.  
+  `Java 21` &bull; `Spring Boot 3.3` &bull; `PostgreSQL 16` &bull; `Flyway` &bull; `Spring Security (JWT)` &bull; `Docker` &bull; `JUnit 5`
 
-- **[Tales Almeida](https://github.com/Igor8818/tales)**  
-  Website institucional e portfólio para jurista, professor universitário e cofundador da *Almeida & Korontai Sociedade de Advogados*.  
-  - Acervo estruturado de publicações e artigos científicos publicados em periódicos jurídicos;
-  - Apresentação institucional de áreas de atuação do escritório e canais de atendimento;
-  - Interface contemporânea em Dark Theme com animações suaves de rolagem (*Scroll Reveal*).  
-  `HTML5` &bull; `CSS3 (Flexbox / Grid)` &bull; `JavaScript`
+---
+
+### 🚀 Outros Projetos Relevantes
+
+- **[FocusLift](https://github.com/Igor8818/focuslift)** — App mobile *Offline-First* para progressão de cargas na musculação com sincronização incremental `SQLite ↔ Cloud Firestore`, detecção de PRs, 5 idiomas e monetização In-App via RevenueCat. (`React Native`, `Expo`, `TypeScript`, `SQLite`, `Vitest`).
+- **[Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)** — Landing page profissional médica com player de vídeos interativo e entrega via Edge CDN. (`Tailwind CSS`, `JavaScript ES6+`, `Vercel`).
+- **[Tales Almeida](https://github.com/Igor8818/tales)** — Website institucional e acervo científico para jurista em Dark Theme com animações de rolagem. (`HTML5`, `CSS3`, `JavaScript`).
 
 ---
 
 ### 🛠️ Tecnologias & Domínios
 
-- **Mobile:** Kotlin, Android SDK, Jetpack Compose, React Native, Expo, TypeScript, SQLite, CameraX, MVVM, Coroutines, StateFlow, Room / Armazenamento local atômico
-- **IA & Visão Computacional:** TensorFlow Lite, YOLO, inferência on-device (Edge AI), pré-processamento de imagens, GPU Delegate
-- **Web, Cloud & Testes:** HTML5 semântico, CSS3, Tailwind CSS, JavaScript moderno (ES6+), Firebase (Auth & Firestore), RevenueCat, Vitest
-- **Ferramentas & Ambiente:** Git, GitHub, Android Studio, Vercel, VS Code
+* **Linguagens:** Kotlin, Java (21), TypeScript, JavaScript (ES6+), SQL
+* **Mobile:** Android SDK, Jetpack Compose, CameraX, React Native, Expo, MVVM, Coroutines, StateFlow, Room / SQLite
+* **Back-end & Cloud:** Spring Boot 3, Spring Data JPA, Spring Security (JWT), RESTful APIs, PostgreSQL, Flyway, Docker, Docker Compose, Firebase
+* **IA & Visão Computacional:** TensorFlow Lite, YOLOv8, Edge AI on-device, processamento de imagem com ExifInterface e matrizes de rotação
+* **Qualidade & Ferramentas:** JUnit 5, Mockito, AssertJ, Git, GitHub Actions, Gradle, Maven, Android Studio, VS Code
 
 ---
 
 ### 📬 Contato
 
-- **LinkedIn:** [linkedin.com/in/igorhagge](https://www.linkedin.com/in/igorhagge/)
-- **E-mail:** [igor.senna2@hotmail.com](mailto:igor.senna2@hotmail.com)
-- **GitHub:** [@Igor8818](https://github.com/Igor8818)
+* **LinkedIn:** [linkedin.com/in/igorhagge](https://www.linkedin.com/in/igorhagge/)
+* **E-mail:** [igor.senna2@hotmail.com](mailto:igor.senna2@hotmail.com)
+* **GitHub:** [@Igor8818](https://github.com/Igor8818)
