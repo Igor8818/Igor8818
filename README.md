@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Igor Hagge — Software Developer (Full-Stack, Mobile, IA Aplicada)" width="100%" />
+  <img src="assets/banner.png" alt="Igor Sena Hagge — Software Engineer (Full-Stack, Mobile & AI)" width="100%" />
   <br/><br/>
   <p>
     <a href="#-sobre-mim"><b>Sobre mim</b></a> &nbsp;&bull;&nbsp;
