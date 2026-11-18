@@ -3,10 +3,10 @@
   <br/><br/>
   <p>
     <a href="#-sobre-mim"><b>Sobre mim</b></a> &nbsp;&bull;&nbsp;
-    <a href="#-projetos-em-destaque"><b>Projetos em destaque</b></a> &nbsp;&bull;&nbsp;
-    <a href="#-demonstrações-visuais"><b>Demonstrações</b></a> &nbsp;&bull;&nbsp;
-    <a href="#-engenharia--qualidade"><b>Engenharia & Qualidade</b></a> &nbsp;&bull;&nbsp;
-    <a href="#-tecnologias"><b>Tecnologias</b></a> &nbsp;&bull;&nbsp;
+    <a href="#-projetos-em-destaque"><b>Projetos</b></a> &nbsp;&bull;&nbsp;
+    <a href="#-arquitetura--produtos-em-ação"><b>Demonstrações</b></a> &nbsp;&bull;&nbsp;
+    <a href="#-engenharia--qualidade"><b>Engenharia &amp; Qualidade</b></a> &nbsp;&bull;&nbsp;
+    <a href="#-tecnologias"><b>Stack</b></a> &nbsp;&bull;&nbsp;
     <a href="#-contato"><b>Contato</b></a>
   </p>
   <p>
@@ -21,15 +21,16 @@
 </div>
 
 <details>
-  <summary>🇺🇸 <b>Read in English — Quick Summary for Recruiters &amp; Engineering Teams</b></summary>
+  <summary>🇺🇸 <b>Read in English — Executive Summary for Tech Recruiters &amp; Engineering Teams</b></summary>
   <br/>
   <p>
-    <b>Software Engineer</b> delivering end-to-end systems across <b>Enterprise Back-end (Java 21, Spring Boot 3, PostgreSQL, SQL Server)</b>, <b>Native &amp; Cross-Platform Mobile (Kotlin / Jetpack Compose &amp; React Native / Expo)</b>, <b>Modern Web (React 18, TypeScript, Tailwind CSS)</b>, and <b>Applied AI (On-Device Edge AI with YOLO / TensorFlow Lite &amp; Guardrailed LLMs)</b>.
+    <b>Software Engineer</b> building production-grade systems end-to-end across <b>Enterprise Back-end (Java 21, Spring Boot 3, PostgreSQL, SQL Server)</b>, <b>Native &amp; Cross-Platform Mobile (Kotlin / Jetpack Compose &amp; React Native / Expo)</b>, <b>Modern Web (React 18, TypeScript, Tailwind CSS)</b>, and <b>Applied AI (On-Device Edge AI with YOLO / TensorFlow Lite &amp; Guardrailed LLMs)</b>.
   </p>
   <ul>
-    <li><b>AgTech &amp; Edge AI Ecosystem (115 Automated Tests + CI):</b> Built <a href="https://github.com/Igor8818/CacauApp">CacauApp</a> + <a href="https://github.com/Igor8818/CacauSync">CacauSync API</a> for cacao genetic research at <b>CEPEC / CEPLAC</b> (940 trees, 104 clones, stateless JWT RBAC, idempotent HTTP/USB ADB sync, HTML5 Canvas YOLO auditing), and generalized the engine into <a href="https://github.com/Igor8818/BreedAI">BreedAI</a>, a standalone open-source multi-crop field phenotyping app inspired by Field Book.</li>
-    <li><b>Full-Stack Product &amp; Database Security (139 Automated Tests + CI):</b> Created <a href="https://github.com/Igor8818/focuslift">FocusLift</a> (Java 21 + Spring Boot 3.4 + PostgreSQL 16 + React Native Offline-First + Gemini 2.5 Flash guarded by a deterministic Java math engine) and <a href="https://github.com/Igor8818/cacauapp2">CacauApp2</a> (Android Edge AI paired with <b>SQL Server 2025 RBAC, Row-Level Security, Dynamic Data Masking, SHA-256, and Covering Indexes</b> validated across 100,000 rows).</li>
-    <li><b>Production Web Deliveries:</b> Shipped custom institutional web applications for real clients on Vercel &amp; Netlify (<a href="https://claudiafontesenfermagem.vercel.app">Claudia Fontes Clinic</a>, <a href="https://proftalesalmeida.com">Prof. Tales Almeida</a>, and <a href="https://github.com/Igor8818/BeatrizTeixeira">Beatriz Figueiredo Law</a>).</li>
+    <li><b>Full-Stack Cloud, Mobile &amp; Guardrailed AI:</b> Built <a href="https://github.com/Igor8818/focuslift">FocusLift</a> (Java 21 + Spring Boot 3.4 + PostgreSQL 16 + React Native Offline-First SQLite + Gemini 2.5 Flash protected by a deterministic Java math engine against numerical hallucinations — 81 automated tests in CI).</li>
+    <li><b>Enterprise REST APIs &amp; Distributed Sync:</b> Architected <a href="https://github.com/Igor8818/CacauSync">CacauSync</a> (Java 21 + Spring Boot 3.3 + JWT RBAC + Flyway + React 18 SPA) with idempotent batch synchronization over HTTP and automated USB ADB tunnels, paired with native Android Edge AI clients (<a href="https://github.com/Igor8818/BreedAI">BreedAI</a> &amp; <a href="https://github.com/Igor8818/CacauApp">CacauApp</a> — 115 automated tests in CI).</li>
+    <li><b>Database Security &amp; High-Volume Query Tuning:</b> Engineered <a href="https://github.com/Igor8818/cacauapp2">CacauApp2</a> on <b>SQL Server 2025</b> implementing RBAC, Row-Level Security (RLS), Dynamic Data Masking (DDM), SHA-256, an anti-SQLi Python CLI bridge, and Covering Indexes cutting logical reads by <b>99.8%</b> (<code>1,796 → 3 pages</code>, <code>&lt; 1 ms</code>) across 100,000+ rows.</li>
+    <li><b>Production Web Deliveries:</b> Shipped custom responsive web applications for real clients on Vercel, Netlify &amp; GitHub Pages.</li>
   </ul>
 </details>
 
@@ -37,75 +38,46 @@
 
 ## 👋 Sobre mim
 
-**Engenheiro de Software** com entrega ponta a ponta em **Mobile Nativo & Multiplataforma (Kotlin / Jetpack Compose & React Native)**, **Back-end Corporativo (Java 21 / Spring Boot 3)**, **Front-end Web (React / TypeScript)**, **Engenharia de Dados Segura (PostgreSQL & SQL Server)** e **IA Aplicada (Edge AI com YOLO / TensorFlow Lite & LLMs)**.
+**Engenheiro de Software** com entrega ponta a ponta em **Back-end Corporativo (Java 21 & Spring Boot 3)**, **Mobile Nativo & Multiplataforma (Kotlin / Jetpack Compose & React Native / Expo)**, **Front-end Web (React 18 & TypeScript)**, **Bancos de Dados Relacionais (PostgreSQL & SQL Server)** e **IA Aplicada (Visão Computacional On-Device & LLMs)**.
 
-Projeto e construo sistemas voltados a cenários reais exigentes — de aplicativos Android **100% Offline-First** com inferência de Visão Computacional embarcada em áreas rurais sem internet, a APIs REST corporativas com segurança *stateless* JWT, bancos relacionais com RBAC/RLS/migrações versionadas, auditoria visual em HTML5 Canvas e pipelines automatizados em **GitHub Actions CI**.
-
----
-
-## 🚀 Projetos em destaque
-
-### 1. Plataforma Open-Source & Ecossistema de Edge AI (**115 Testes Automatizados**)
-> **Do Campo Institucional (CEPEC / CEPLAC) ao Produto Multi-Cultura:** O motor de Visão Computacional e Auditoria validado em pesquisa agronômica oficial (`CacauApp` + `CacauSync`) foi generalizado no **BreedAI**, um aplicativo standalone multi-culturas pronto para publicação na **Google Play**.
-
-| Projeto | Arquitetura & Impacto Técnico | Stack & Qualidade |
-| :--- | :--- | :--- |
-| **[🧬 BreedAI](https://github.com/Igor8818/BreedAI)**<br/>*App Android Multi-Culturas (Open-Source • Play-Ready)* | Fenotipagem em campo inspirada no **Field Book** (`BreedAITheme` + `ModalNavigationDrawer` + 4 abas), **100% standalone e offline**. Possui motor **Universal YOLO/SSD** (`[1,C,N]`, `End2End NMS [1,N,6]`, `INT8`/`UINT8`/`FLOAT32`, leitura de metadados Ultralytics), parser nativo offline de **`.xlsx` (ZIP+SAX XML)**, *Traits* dinâmicos, importação/exportação de modelos em **`.zip`** e regras ProGuard/R8 para release. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TFLite` `YOLO Universal` `Excel .xlsx` **`31 Testes`** `CI` |
-| **[🌱 CacauSync API](https://github.com/Igor8818/CacauSync)**<br/>*Back-end Corporativo & Painel Web React* | API RESTful corporativa em **Java 21 + Spring Boot 3.3** (integrada a SPA Web em **React 18 + TypeScript**) para planejamento de rotas (`.xlsx`/`.csv`), sincronização idempotente em lote (HTTP e ponte automática **USB ADB** em 1 clique), segurança *stateless* **JWT (RBAC)**, **PostgreSQL 16 + Flyway** e auditoria visual com caixas YOLO em **HTML5 Canvas + zoom**. | `Java 21` `Spring Boot 3.3` `React 18` `TypeScript` `PostgreSQL 16` `Flyway` `Docker` **`51 Testes JUnit 5`** `CI` |
-| **[📱 CacauApp](https://github.com/Igor8818/CacauApp)**<br/>*Mobile Edge AI Fitossanitário (CEPEC / CEPLAC)* | App Android dedicado ao ensaio clonal `TC-1801` (104 clones, 940 plantas). Suporta **Pipeline Duplo simultâneo** (Contagem + Diagnóstico de *Sadio*, *Vassoura de Bruxa*, *Podridão Parda* e *Monilíase*) com **Letterbox isomórfico**, *snap* geométrico pós-captura, auditoria *Human-in-the-Loop* e sincronização em 1 clique com o laboratório. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TFLite` `YOLOv8` `OkHttp` **`33 Testes`** `CI` |
+Projeto e construo sistemas resilientes orientados a performance, segurança e confiabilidade — desde **APIs REST *stateless* com JWT/RBAC, migrações Flyway e sincronização idempotente em lote**, até **aplicativos 100% Offline-First**, **motores determinísticos anti-alucinação para IA generativa**, **tuning de queries em tabelas de 100k+ linhas** e **pipelines automatizados em GitHub Actions CI**.
 
 ---
 
-### 2. Produto Full-Stack Autoral & Engenharia de Banco de Dados (**139 Testes Automatizados**)
-
-| Projeto | Arquitetura & Impacto Técnico | Stack & Qualidade |
-| :--- | :--- | :--- |
-| **[🏋️ FocusLift](https://github.com/Igor8818/focuslift)**<br/>*Full-Stack Mobile Offline-First & AI Coach* | Plataforma para progressão de cargas em treinos de força. Conecta cliente mobile **100% Offline-First (SQLite parametrizado)** a API REST em **Java 21 + Spring Boot 3.4** com sincronização bidirecional por *tombstones*, JWT, cálculo de 1RM e **AI Coach (Gemini 2.5 Flash)** blindado por motor determinístico em Java (`ProgressionMathEngine`) contra alucinações numéricas. | `Java 21` `Spring Boot 3.4` `PostgreSQL 16` `React Native` `Expo` `TypeScript` `SQLite` `Docker` `Gemini AI` **`81 Testes`** `CI` |
-| **[🍫 CacauApp2](https://github.com/Igor8818/cacauapp2)**<br/>*Edge AI Offline & SQL Server 2025 Security/Tuning* | Arquitetura integrando aplicativo Android nativo (Letterbox + Gamma LUT para cabruca sombreada + WBF/IoS NMS) a um banco **SQL Server 2025** com **RBAC em 4 papéis (`GRANT`/`DENY`)**, **Row-Level Security (`RLS`)**, **Dynamic Data Masking (`DDM`) + `SHA-256`**, trilha de auditoria imutável, **Covering Indexes** validados com planos de execução sobre **100.000 registros** e ponte CLI Python anti-SQLi. | `SQL Server 2025` `T-SQL` `Kotlin` `CameraX` `Python` `RBAC / RLS / DDM` **`58 Testes`** |
-
----
-
-### 3. Aplicações Web em Produção (Clientes)
-
-* **[🩺 Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)** — *Em produção ([claudiafontesenfermagem.vercel.app](https://claudiafontesenfermagem.vercel.app))*  
-  Landing page institucional para consultório especializado com player de vídeo interativo, design responsivo e entrega via Edge CDN. (`HTML5` &bull; `Tailwind CSS` &bull; `JavaScript ES6+` &bull; `Vercel`)
-* **[⚖️ Prof. Tales Almeida](https://github.com/Igor8818/tales)** — *Em produção ([proftalesalmeida.com](https://proftalesalmeida.com/))*  
-  Website institucional e acervo acadêmico/jurídico desenvolvido sob encomenda em tema escuro com animações fluidas e pipeline de deploy contínuo. (`React` &bull; `Vite` &bull; `JavaScript` &bull; `CSS3` &bull; `GitHub Actions` &bull; `Netlify`)
-* **[🏛️ Dra. Beatriz Figueiredo — Advocacia](https://github.com/Igor8818/BeatrizTeixeira)** — *Publicado ([igor8818.github.io/BeatrizTeixeira](https://igor8818.github.io/BeatrizTeixeira/))*  
-  Website institucional modular desenvolvido para escritório jurídico com identidade visual de autoridade e layout responsivo. (`React` &bull; `Vite` &bull; `Tailwind CSS` &bull; `JavaScript`)
-
----
-
-## 📸 Demonstrações visuais
+## 📸 Arquitetura & Produtos em Ação
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="50%" colspan="2">
-        <b>🧬 BreedAI — Plataforma Multi-Culturas &amp; Edge AI</b><br/><br/>
-        <a href="https://github.com/Igor8818/BreedAI">
-          <img src="assets/feature_breedai.jpg" width="680" alt="BreedAI — Multi-Crop Field Phenotyping &amp; Edge AI" />
+      <td align="center" width="50%">
+        <a href="https://github.com/Igor8818/focuslift">
+          <img src="assets/demo_focuslift.jpg" width="100%" alt="FocusLift — Full-Stack Java 21, React Native Offline-First & AI Guardrail" />
         </a>
-        <br/><br/>
-        <img src="assets/screen_coleta_livre.png" width="195" alt="Tela Coleta Livre BreedAI" />
-        &nbsp;&nbsp;
-        <img src="assets/screen_menu_lateral.png" width="195" alt="Menu Lateral Field Book BreedAI" />
-        &nbsp;&nbsp;
-        <img src="assets/cacausync_auditoria.png" width="380" alt="Painel Web CacauSync" />
         <br/>
-        <sub>UX agronômica inspirada no Field Book (esquerda/centro) e painel web de auditoria científica CacauSync (direita)</sub>
+        <sub><b>🏋️ FocusLift</b> — API Spring Boot 3.4 + Mobile React Native/SQLite + Gemini AI c/ Guardrail Java</sub>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://github.com/Igor8818/CacauSync">
+          <img src="assets/demo_cacausync.jpg" width="100%" alt="CacauSync — Enterprise Java 21 REST API & React 18 SPA" />
+        </a>
+        <br/>
+        <sub><b>⚡ CacauSync</b> — API REST Java 21 + JWT/RBAC + Sync Idempotente + SPA React 18 / HTML5 Canvas</sub>
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="2">
-        <b>📱 CacauApp — Detecção YOLOv8 &amp; Auditoria Fitossanitária em Campo</b><br/><br/>
-        <a href="https://github.com/Igor8818/CacauApp">
-          <img src="https://raw.githubusercontent.com/Igor8818/CacauApp/main/docs/assets/cacauapp_deteccao_perfeita.jpg" width="230" alt="Detecção YOLOv8 CacauApp" />
-          &nbsp;&nbsp;
-          <img src="https://raw.githubusercontent.com/Igor8818/CacauApp/main/docs/assets/cacauapp_coleta_campo.png" width="230" alt="Coleta em Campo CacauApp" />
+      <td align="center" width="50%">
+        <a href="https://github.com/Igor8818/BreedAI">
+          <img src="assets/demo_breedai_mobile.jpg" width="100%" alt="BreedAI — Android Nativo Kotlin 2.0 & Universal Edge AI Engine" />
         </a>
         <br/>
-        <sub>Inferência YOLOv8/TFLite on-device com snap geométrico pós-foto e classificação humana assistida 100% offline</sub>
+        <sub><b>📱 BreedAI &amp; Mobile Suite</b> — Kotlin 2.0 + Compose + Universal TFLite Runtime + Parser .XLSX Nativo</sub>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://github.com/Igor8818/cacauapp2">
+          <img src="assets/demo_sql_security.jpg" width="100%" alt="SQL Server 2025 Security, RLS, DDM & 100k-Row Index Tuning" />
+        </a>
+        <br/>
+        <sub><b>🛡️ SQL Server 2025 &amp; Security</b> — RBAC, RLS, DDM, CLI Python Anti-SQLi &amp; -99.8% I/O em 100k+ Linhas</sub>
       </td>
     </tr>
   </table>
@@ -113,13 +85,38 @@ Projeto e construo sistemas voltados a cenários reais exigentes — de aplicati
 
 ---
 
+## 🚀 Projetos em destaque
+
+### 1. Sistemas Principais — Back-end, Full-Stack, Mobile & IA (**254+ Testes Automatizados**)
+
+| Projeto | Arquitetura & Engenharia de Software | Stack & Qualidade |
+| :--- | :--- | :--- |
+| **[🏋️ FocusLift](https://github.com/Igor8818/focuslift)**<br/>*Full-Stack Cloud, Mobile & AI Coach* | Plataforma completa para progressão de treinos com APK publicado. Conecta app **100% Offline-First (SQLite reativo)** a uma **API REST em Java 21 + Spring Boot 3.4** com sincronização bidirecional via *tombstones*, autenticação JWT, observabilidade Actuator e **AI Coach (Gemini 2.5 Flash)** blindado por motor matemático determinístico em Java (`ProgressionMathEngine`) contra alucinações numéricas. | `Java 21` `Spring Boot 3.4` `PostgreSQL 16` `React Native` `Expo` `TypeScript` `SQLite` `Docker` **`81 Testes`** `CI` |
+| **[⚡ CacauSync API](https://github.com/Igor8818/CacauSync)**<br/>*Enterprise REST API & Painel React 18* | Back-end corporativo em **Java 21 + Spring Boot 3.3** integrado a SPA em **React 18 + TypeScript**. Implementa ingestão nativa de planilhas (`.xlsx` Apache POI / `.csv` RFC 4180), **sincronização em lote estritamente idempotente** (via HTTP e túnel automático **USB ADB**), segurança *stateless* **Spring Security JWT (RBAC)**, tratamento global **RFC 7807 (`ProblemDetail`)**, **PostgreSQL 16 + Flyway** e revisão vetorial de caixas YOLO em **HTML5 Canvas**. | `Java 21` `Spring Boot 3.3` `PostgreSQL 16` `Flyway` `JWT / RBAC` `React 18` `TypeScript` `Docker` **`51 Testes JUnit 5`** `CI` |
+| **[🧬 BreedAI](https://github.com/Igor8818/BreedAI)**<br/>*Android Open-Source & Universal Edge AI* | Plataforma Android **100% standalone e sem servidor**, pronta para Google Play (R8/ProGuard). Possui **runtime Universal YOLO/SSD** capaz de carregar modelos `.tflite` customizados em tempo de execução (`[1,C,N]`, `End2End NMS [1,N,6]`, `INT8`/`UINT8`/`FLOAT32`, metadados Ultralytics), **parser streaming nativo de Excel (`.xlsx` via ZIP + SAX XML)** sem dependências pesadas, schemas dinâmicos e pacotes `.zip` plugáveis. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TensorFlow Lite` `Coroutines` `MIT License` **`31 Testes`** `CI` |
+| **[🛡️ CacauApp2](https://github.com/Igor8818/cacauapp2)**<br/>*Database Security, Tuning & Edge AI* | Arquitetura focada em **segurança de dados em profundidade e alta performance relacional** no **SQL Server 2025**: matriz **RBAC (`GRANT`/`DENY`)**, isolamento por **Row-Level Security (`RLS`)**, **Dynamic Data Masking (`DDM`) + `SHA-256`**, auditoria imutável, **Covering Indexes** reduzindo leituras lógicas em **99,8%** (`1.796 → 3 páginas`, `< 1 ms`) em **100.000+ registros**, ponte CLI Python anti-SQLi (`EXECUTE AS USER`) e app Android offline. | `SQL Server 2025` `T-SQL` `RBAC / RLS / DDM` `Python` `Kotlin` `CameraX` **`58 Testes`** |
+| **[📱 CacauApp](https://github.com/Igor8818/CacauApp)**<br/>*Android Offline-First & Dual-Model CV* | Aplicativo Android nativo projetado para operação crítica sem internet em aparelhos de entrada. Executa **pipeline duplo de Visão Computacional YOLOv8 em tempo real**, pré-processamento por **Letterbox isomórfico (`640x640`)** com *snap* geométrico pós-captura, editor interativo *Human-in-the-Loop* em tela cheia, persistência atômica (`AtomicFile`) e auto-descoberta de rede `/24` + ponte USB para sync em 1 clique. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TensorFlow Lite` `YOLOv8` `OkHttp` **`33 Testes`** `CI` |
+
+---
+
+### 2. Aplicações Web em Produção (Entregas Comerciais)
+
+* **[🩺 Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)** — *Em produção ([claudiafontesenfermagem.vercel.app](https://claudiafontesenfermagem.vercel.app))*  
+  Aplicação web institucional com player de vídeo interativo, arquitetura responsiva mobile-first e entrega global via Edge CDN. (`HTML5` &bull; `Tailwind CSS` &bull; `JavaScript ES6+` &bull; `Vercel`)
+* **[⚖️ Prof. Tales Almeida](https://github.com/Igor8818/tales)** — *Em produção ([proftalesalmeida.com](https://proftalesalmeida.com/))*  
+  SPA institucional e acervo digital em tema escuro com animações fluidas e pipeline automatizado de build e deploy contínuo. (`React` &bull; `Vite` &bull; `JavaScript` &bull; `CSS3` &bull; `GitHub Actions` &bull; `Netlify`)
+* **[🏛️ Dra. Beatriz Figueiredo — Advocacia](https://github.com/Igor8818/BeatrizTeixeira)** — *Publicado ([igor8818.github.io/BeatrizTeixeira](https://igor8818.github.io/BeatrizTeixeira/))*  
+  Aplicação web modular componentizada com design responsivo e deploy automatizado via GitHub Pages. (`React` &bull; `Vite` &bull; `Tailwind CSS` &bull; `JavaScript`)
+
+---
+
 ## 🧠 Engenharia & Qualidade
 
-* **Spec-Driven Development (SDD) & Contratos Cross-Stack:** Especificações formais (`docs/specs/SPEC-000` a `SPEC-003` + `REGRAS_DE_NEGOCIO.md`) assegurando concordância estrita entre payloads Android, CSV RFC 4180 e back-end Spring Boot.
-* **Offline-First & Resiliência de Dados:** Persistência local com `AtomicFile` e SQLite parametrizado, chaves de idempotência contra quedas de rede e reconciliação bidirecional segura por *tombstones*.
-* **Segurança & Otimização Relacional:** Controle de acesso baseado em papéis (`RBAC` via JWT e banco), `Row-Level Security (RLS)`, mascaramento dinâmico (`DDM`), migrações versionadas com **Flyway** e tuning com **Covering Indexes** medido em `STATISTICS IO/TIME` sobre **100.000+ linhas**.
-* **Engine Edge AI On-Device & Guardrails de LLM:** Suporte unificado a modelos YOLO `FLOAT32`/`UINT8`/`INT8` e `End2End NMS [1,N,6]`, *Letterbox* isomórfico, reuso de buffers nativos e motores determinísticos em Java blindando respostas de IA generativa.
-* **Testes & Integração Contínua:** **254+ testes automatizados** (`51` CacauSync + `33` CacauApp + `31` BreedAI + `81` FocusLift + `58` CacauApp2) e pipelines ativos em **GitHub Actions CI**.
+* **Arquitetura Limpa & Contratos Cross-Stack (SDD):** Especificações técnicas formais (`SPEC-000` a `SPEC-003`) e testes de contrato (`MobileContractTest`) garantindo compatibilidade estrita entre clientes mobile, payloads JSON/CSV RFC 4180 e APIs Spring Boot.
+* **Sistemas Offline-First & Sincronização Distribuída:** Escrita local transacional (`SQLite` e `AtomicFile`), chaves de idempotência contra retransmissões em redes instáveis, pareamento de mídia por hash `SHA-256` e reconciliação bidirecional por *tombstones*.
+* **Segurança em Múltiplas Camadas & Performance SQL:** Autenticação *stateless* JWT com RBAC no back-end, combinada a controles nativos de banco (`Row-Level Security`, `Dynamic Data Masking`, `EXECUTE AS USER`), migrações **Flyway** e tuning com **Covering Indexes** comprovado via planos de execução (`STATISTICS IO/TIME`) em **100.000+ linhas**.
+* **IA Aplicada em Produção (Edge AI & LLM Guardrails):** Inferência *on-device* otimizada (~34 ms/frame com reuso de buffers nativos e quantização `INT8`/`FLOAT32`) e integração com LLMs protegida por validação matemática determinística em Java.
+* **Testes Automatizados & CI/CD:** **254+ testes automatizados** (`81` FocusLift + `58` CacauApp2 + `51` CacauSync + `33` CacauApp + `31` BreedAI) validados continuamente em **GitHub Actions CI**.
 
 ---
 
@@ -127,12 +124,12 @@ Projeto e construo sistemas voltados a cenários reais exigentes — de aplicati
 
 | Área | Tecnologias & Ferramentas |
 | :--- | :--- |
-| **Back-end** | Java (21), Spring Boot 3, APIs RESTful, Spring Security (JWT), Spring Data JPA / Hibernate, Apache POI |
-| **Front-end** | React 18, TypeScript, JavaScript (ES6+), Tailwind CSS, Vite, HTML5, CSS3 |
-| **Mobile** | Kotlin 2.0, Jetpack Compose (Material 3), CameraX, React Native, Expo, Android SDK, Coroutines |
-| **IA Aplicada** | Python, YOLOv8 / Universal YOLO, TensorFlow Lite (Edge AI On-Device), Google Gemini API, Spec-Driven Development |
-| **Dados e DevOps** | PostgreSQL 16, SQL Server 2025 (RBAC, RLS, DDM), SQLite, H2, Docker, Docker Compose, Flyway Migrations |
-| **Testes & CI** | JUnit 4/5, Mockito, AssertJ, Vitest, GitHub Actions CI, ProGuard/R8, Gradle, Maven, Git |
+| **Back-end** | Java 21, Spring Boot 3, Spring Security 6 (JWT / RBAC), Spring Data JPA / Hibernate, REST APIs (RFC 7807 / OpenAPI 3), Apache POI |
+| **Front-end** | React 18, TypeScript, JavaScript (ES6+), Tailwind CSS, Vite, HTML5 Canvas, CSS3 |
+| **Mobile** | Kotlin 2.0, Jetpack Compose (Material 3), CameraX, Coroutines, React Native, Expo, SQLite |
+| **Dados & DevOps** | PostgreSQL 16, SQL Server 2025 (RLS, DDM, RBAC, Query Tuning), H2, Flyway Migrations, Docker, Docker Compose |
+| **IA & Edge Computing** | Python, TensorFlow Lite (On-Device Runtime), YOLO / SSD Object Detection, Google Gemini API, Deterministic Guardrails |
+| **Testes & CI/CD** | JUnit 5, Mockito, AssertJ, Vitest, GitHub Actions CI, ProGuard / R8, Maven, Gradle, Git |
 
 ---
 
