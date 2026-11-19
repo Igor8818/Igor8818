@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="assets/banner_v4.jpg" alt="Igor Sena Hagge — Software Engineer (Full-Stack, Mobile & AI)" width="100%" />
   <br/><br/>
   <p>
@@ -16,18 +16,18 @@
     <a href="mailto:igor.senna2@hotmail.com">
       <img src="https://img.shields.io/badge/Email-igor.senna2%40hotmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <img src="https://img.shields.io/badge/Qualidade_%26_CI-196_Testes_Automatizados-1B5E20?style=flat-square&logo=githubactions&logoColor=white" alt="196 Testes Automatizados" />
+    <img src="https://img.shields.io/badge/Qualidade_%26_CI-203_Testes_Automatizados-1B5E20?style=flat-square&logo=githubactions&logoColor=white" alt="203 Testes Automatizados" />
   </p>
 </div>
 
 <details>
-  <summary>🇺🇸 <b>Read in English — Executive Summary for Tech Recruiters &amp; Engineering Teams</b></summary>
+  <summary>🇺🇸 <b>Read in English — Executive Summary for Tech Recruiters &amp; Engineering Teams (203 Automated Tests)</b></summary>
   <br/>
   <p>
     <b>Software Engineer</b> building production-grade systems end-to-end across <b>Enterprise Back-end (Java 21, Spring Boot 3, PostgreSQL 16)</b>, <b>Native &amp; Cross-Platform Mobile (Kotlin / Jetpack Compose &amp; React Native / Expo)</b>, <b>Modern Web (React 18, TypeScript, Tailwind CSS)</b>, and <b>Applied AI (On-Device Edge AI with YOLO / TensorFlow Lite &amp; Guardrailed LLMs)</b>.
   </p>
   <ul>
-    <li><b>Full-Stack Cloud, Mobile &amp; Guardrailed AI:</b> Built <a href="https://github.com/Igor8818/focuslift">FocusLift</a> (Java 21 + Spring Boot 3.4 + PostgreSQL 16 + React Native Offline-First SQLite + Gemini 2.5 Flash protected by a deterministic Java math engine against numerical hallucinations — 81 automated tests in CI).</li>
+    <li><b>Full-Stack Cloud, Mobile &amp; Guardrailed AI:</b> Built <a href="https://github.com/Igor8818/focuslift">FocusLift</a> (Java 21 Virtual Threads + Spring Boot 3.4 + PostgreSQL 16 + React Native Offline-First SQLite, ACWR fatigue/injury engine, multi-turn AI Coach 2.0 with 1-tap routine builder, deterministic Java anti-hallucination guardrail, rate limiting, and global 5-language i18n (PT/EN/ES/DE/FR, kg/lbs) — 88 automated tests in CI: 24 JUnit 5 + 64 Vitest).</li>
     <li><b>Enterprise REST APIs &amp; Distributed Sync:</b> Architected <a href="https://github.com/Igor8818/CacauSync">CacauSync</a> (Java 21 + Spring Boot 3.3 + JWT RBAC + Flyway + React 18 SPA) with idempotent batch synchronization over HTTP and automated USB ADB tunnels, paired with native Android Edge AI clients (<a href="https://github.com/Igor8818/BreedAI">BreedAI</a> &amp; <a href="https://github.com/Igor8818/CacauApp">CacauApp</a> — 115 automated tests in CI).</li>
     <li><b>Production Web Deliveries:</b> Shipped 3 custom responsive web applications for real clients with automated CI/CD and global Edge CDN delivery on Vercel, Netlify &amp; GitHub Pages (<a href="https://claudiafontesenfermagem.vercel.app">Claudia Fontes Clinic</a>, <a href="https://proftalesalmeida.com">Prof. Tales Almeida</a>, and <a href="https://igor8818.github.io/BeatrizTeixeira/">Beatriz Figueiredo Law</a>).</li>
   </ul>
@@ -86,11 +86,11 @@ Projeto e construo sistemas resilientes orientados a performance, segurança e c
 
 ## 🚀 Projetos em destaque
 
-### 1. Sistemas Principais — Back-end, Full-Stack, Mobile & IA (**196 Testes Automatizados em CI**)
+### 1. Sistemas Principais — Back-end, Full-Stack, Mobile & IA (**203 Testes Automatizados em CI**)
 
 | Projeto | Arquitetura & Engenharia de Software | Stack & Qualidade |
 | :--- | :--- | :--- |
-| **[🏋️ FocusLift](https://github.com/Igor8818/focuslift)**<br/>*Full-Stack Cloud, Mobile & AI Coach* | Plataforma completa para progressão de treinos com APK publicado. Conecta app **100% Offline-First (SQLite reativo)** a uma **API REST em Java 21 + Spring Boot 3.4** com sincronização bidirecional via *tombstones*, autenticação JWT, observabilidade Actuator e **AI Coach (Gemini 2.5 Flash)** blindado por motor matemático determinístico em Java (`ProgressionMathEngine`) contra alucinações numéricas. | `Java 21` `Spring Boot 3.4` `PostgreSQL 16` `React Native` `Expo` `TypeScript` `SQLite` `Docker` **`81 Testes`** `CI` |
+| **[🏋️ FocusLift](https://github.com/Igor8818/focuslift)**<br/>*Full-Stack Cloud, Mobile & AI Coach* | Plataforma completa para progressão de treinos com APK publicado e i18n global em **5 idiomas (`PT/EN/ES/DE/FR`, `kg/lbs`)**. Conecta app **100% Offline-First (SQLite reativo)** a uma **API REST em Java 21 (Virtual Threads) + Spring Boot 3.4** com sincronização bidirecional via *tombstones*, autenticação JWT, rate limiting, observabilidade Actuator, **motor ACWR de fadiga/lesão** e **AI Coach 2.0 multi-turno (Gemini 2.5 Flash) com construtor de rotinas em 1 toque** blindado por guardrail determinístico anti-alucinação em Java (`ProgressionMathEngine`). | `Java 21` `Spring Boot 3.4` `PostgreSQL 16` `React Native` `Expo` `TypeScript` `SQLite` `Docker` **`88 Testes CI`** `(24 JUnit 5 + 64 Vitest)` |
 | **[⚡ CacauSync API](https://github.com/Igor8818/CacauSync)**<br/>*Enterprise REST API & Painel React 18* | Back-end corporativo em **Java 21 + Spring Boot 3.3** integrado a SPA em **React 18 + TypeScript**. Implementa ingestão nativa de planilhas (`.xlsx` Apache POI / `.csv` RFC 4180), **sincronização em lote estritamente idempotente** (via HTTP e túnel automático **USB ADB**), segurança *stateless* **Spring Security JWT (RBAC)**, tratamento global **RFC 7807 (`ProblemDetail`)**, **PostgreSQL 16 + Flyway** e revisão vetorial de caixas YOLO em **HTML5 Canvas**. | `Java 21` `Spring Boot 3.3` `PostgreSQL 16` `Flyway` `JWT / RBAC` `React 18` `TypeScript` `Docker` **`51 Testes JUnit 5`** `CI` |
 | **[🧬 BreedAI](https://github.com/Igor8818/BreedAI)**<br/>*Android Open-Source & Universal Edge AI* | Plataforma Android **100% standalone e sem servidor**, pronta para Google Play (R8/ProGuard). Possui **runtime Universal YOLO/SSD** capaz de carregar modelos `.tflite` customizados em tempo de execução (`[1,C,N]`, `End2End NMS [1,N,6]`, `INT8`/`UINT8`/`FLOAT32`, metadados Ultralytics), **parser streaming nativo de Excel (`.xlsx` via ZIP + SAX XML)** sem dependências pesadas, schemas dinâmicos e pacotes `.zip` plugáveis. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TensorFlow Lite` `Coroutines` `MIT License` **`31 Testes`** `CI` |
 | **[📱 CacauApp](https://github.com/Igor8818/CacauApp)**<br/>*Android Offline-First & Dual-Model CV* | Aplicativo Android nativo projetado para operação crítica sem internet em aparelhos de entrada. Executa **pipeline duplo de Visão Computacional YOLOv8 em tempo real**, pré-processamento por **Letterbox isomórfico (`640x640`)** com *snap* geométrico pós-captura, editor interativo *Human-in-the-Loop* em tela cheia, persistência atômica (`AtomicFile`) e auto-descoberta de rede `/24` + ponte USB para sync em 1 clique. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TensorFlow Lite` `YOLOv8` `OkHttp` **`33 Testes`** `CI` |
@@ -99,11 +99,11 @@ Projeto e construo sistemas resilientes orientados a performance, segurança e c
 
 ### 2. Aplicações Web em Produção (Entregas Comerciais)
 
-* **[🩺 Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)** — *Em produção ([claudiafontesenfermagem.vercel.app](https://claudiafontesenfermagem.vercel.app))*  
+* **[🩺 Claudia Fontes Enfermagem](https://github.com/Igor8818/Claudiaenfermagem)** — *Em produção ([claudiafontesenfermagem.vercel.app](https://claudiafontesenfermagem.vercel.app))*
   Aplicação web institucional com player de vídeo interativo, arquitetura responsiva mobile-first e entrega global via Edge CDN. (`HTML5` &bull; `Tailwind CSS` &bull; `JavaScript ES6+` &bull; `Vercel`)
-* **[⚖️ Prof. Tales Almeida](https://github.com/Igor8818/tales)** — *Em produção ([proftalesalmeida.com](https://proftalesalmeida.com/))*  
+* **[⚖️ Prof. Tales Almeida](https://github.com/Igor8818/tales)** — *Em produção ([proftalesalmeida.com](https://proftalesalmeida.com/))*
   SPA institucional e acervo digital em tema escuro com animações fluidas e pipeline automatizado de build e deploy contínuo. (`React` &bull; `Vite` &bull; `JavaScript` &bull; `CSS3` &bull; `GitHub Actions` &bull; `Netlify`)
-* **[🏛️ Dra. Beatriz Figueiredo — Advocacia](https://github.com/Igor8818/BeatrizTeixeira)** — *Publicado ([igor8818.github.io/BeatrizTeixeira](https://igor8818.github.io/BeatrizTeixeira/))*  
+* **[🏛️ Dra. Beatriz Figueiredo — Advocacia](https://github.com/Igor8818/BeatrizTeixeira)** — *Publicado ([igor8818.github.io/BeatrizTeixeira](https://igor8818.github.io/BeatrizTeixeira/))*
   Aplicação web modular componentizada com design responsivo e deploy automatizado via GitHub Pages. (`React` &bull; `Vite` &bull; `Tailwind CSS` &bull; `JavaScript`)
 
 ---
@@ -114,7 +114,7 @@ Projeto e construo sistemas resilientes orientados a performance, segurança e c
 * **Sistemas Offline-First & Sincronização Distribuída:** Escrita local transacional (`SQLite` e `AtomicFile`), chaves de idempotência contra retransmissões em redes instáveis, pareamento de mídia por hash `SHA-256` e reconciliação bidirecional por *tombstones*.
 * **Segurança Corporativa & Persistência Versionada:** Autenticação *stateless* via Bearer Token **JWT com RBAC** (`Spring Security 6`), respostas padronizadas de erro (`RFC 7807 ProblemDetail`), containers **Docker** e migrações versionadas em **PostgreSQL 16 + Flyway**.
 * **IA Aplicada em Produção (Edge AI & LLM Guardrails):** Inferência *on-device* otimizada (~34 ms/frame com reuso de buffers nativos e quantização `INT8`/`FLOAT32`) e integração com LLMs protegida por validação matemática determinística em Java.
-* **Testes Automatizados & CI/CD:** **196 testes automatizados** (`81` FocusLift + `51` CacauSync + `33` CacauApp + `31` BreedAI) — **100% dos 4 sistemas principais com pipelines ativos em GitHub Actions CI**.
+* **Testes Automatizados & CI/CD:** **203 testes automatizados** (`88` FocusLift [24 JUnit 5 + 64 Vitest] + `51` CacauSync + `33` CacauApp + `31` BreedAI) — **100% dos 4 sistemas principais com pipelines ativos em GitHub Actions CI**.
 
 ---
 
