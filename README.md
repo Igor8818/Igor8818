@@ -16,19 +16,19 @@
     <a href="mailto:igor.senna2@hotmail.com">
       <img src="https://img.shields.io/badge/Email-igor.senna2%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <img src="https://img.shields.io/badge/Automated_Tests-292_Passing_in_CI-1B5E20?style=for-the-badge&logo=githubactions&logoColor=white" alt="292 Automated Tests in CI" />
+    <img src="https://img.shields.io/badge/Automated_Tests-299_Passing_in_CI-1B5E20?style=for-the-badge&logo=githubactions&logoColor=white" alt="299 Automated Tests in CI" />
   </p>
 </div>
 
 <details>
-  <summary>🇺🇸 <b>Read in English — Executive Summary for Tech Recruiters &amp; Engineering Teams (292 Automated Tests)</b></summary>
+  <summary>🇺🇸 <b>Read in English — Executive Summary for Tech Recruiters &amp; Engineering Teams (299 Automated Tests)</b></summary>
   <br/>
   <p>
-    <b>Software Engineer (Back-end Java/Spring Boot &amp; Mobile Kotlin/React Native)</b> building production systems for applied agricultural research at <b>CEPEC/CEPLAC</b> and commercial web deliveries. Experienced across <b>Enterprise REST APIs (Java 21, Spring Boot 3, PostgreSQL 16, Flyway, JWT/RBAC, Docker)</b>, <b>Offline-First Mobile Apps (Kotlin / Jetpack Compose MVVM &amp; React Native / SQLite)</b>, and <b>Applied AI (On-Device TFLite / YOLO &amp; Deterministic LLM Guardrails)</b> backed by <b>292 automated tests in GitHub Actions CI</b>.
+    <b>Software Engineer (Back-end Java/Spring Boot &amp; Mobile Kotlin/React Native)</b> building production systems for applied agricultural research at <b>CEPEC/CEPLAC</b> and commercial web deliveries. Experienced across <b>Enterprise REST APIs (Java 21, Spring Boot 3, PostgreSQL 16, Flyway, JWT/RBAC, Docker)</b>, <b>Offline-First Mobile Apps (Kotlin / Jetpack Compose MVVM &amp; React Native / SQLite)</b>, and <b>Applied AI (On-Device TFLite / YOLO &amp; Deterministic LLM Guardrails)</b> backed by <b>299 automated tests in GitHub Actions CI</b>.
   </p>
   <ul>
     <li><b>Full-Stack Cloud, Mobile &amp; Guardrailed AI:</b> Built <a href="https://github.com/Igor8818/focuslift">FocusLift</a> (Java 21 Virtual Threads + Spring Boot 3.4 + PostgreSQL 16 + React Native Offline-First SQLite, ACWR fatigue/injury engine, multi-turn AI Coach 2.0, deterministic Java anti-hallucination guardrail, rate limiting, and 5-language i18n — <b>99 automated tests in CI</b>: 24 JUnit 5 + 75 Vitest).</li>
-    <li><b>Enterprise REST APIs &amp; Distributed Sync:</b> Architected <a href="https://github.com/Igor8818/CacauSync">CacauSync</a> (Java 21 + Spring Boot 3.3 + JWT/RBAC + Flyway + React 18 SPA — <b>59 JUnit 5 tests</b>) with idempotent batch synchronization over HTTP and automated USB ADB tunnels, paired with native Android Edge AI clients (<a href="https://github.com/Igor8818/BreedAI">BreedAI</a> MVVM/Compose — <b>85 tests</b> &amp; <a href="https://github.com/Igor8818/CacauApp">CacauApp</a> — <b>49 tests</b>).</li>
+    <li><b>Enterprise REST APIs &amp; Distributed Sync:</b> Architected <a href="https://github.com/Igor8818/CacauSync">CacauSync</a> (Java 21 + Spring Boot 3.3 + JWT/RBAC + Flyway + React 18 SPA — <b>61 JUnit 5 tests</b>) with idempotent batch synchronization over HTTP and automated USB ADB tunnels, paired with native Android Edge AI clients (<a href="https://github.com/Igor8818/BreedAI">BreedAI</a> MVVM/Compose — <b>85 tests</b> &amp; <a href="https://github.com/Igor8818/CacauApp">CacauApp</a> MVVM/Compose — <b>54 tests</b>).</li>
     <li><b>Live Commercial Web Deliveries:</b> Shipped 3 custom responsive web applications for real clients with automated CI/CD on Vercel, Netlify &amp; GitHub Pages (<a href="https://proftalesalmeida.com/">Prof. Tales Almeida</a>, <a href="https://claudiafontesenfermagem.vercel.app">Cláudia Fontes Clinic</a>, and <a href="https://igor8818.github.io/BeatrizTeixeira/">Beatriz Figueiredo Law</a>).</li>
   </ul>
 </details>
@@ -38,7 +38,7 @@
 ## 👨‍💻 Sobre mim | About Me
 
 🇧🇷 **Engenheiro de Software (Back-end Java/Spring Boot & Mobile Kotlin/React Native)** com atuação em sistemas de pesquisa aplicada no **CEPEC/CEPLAC** (Centro de Pesquisas do Cacau) e entregas comerciais em produção.
-Construo **APIs REST corporativas (Java 21, Spring Boot 3, PostgreSQL 16, Flyway, JWT/RBAC, Docker)** integradas a **aplicativos móveis 100% Offline-First**, **Visão Computacional On-Device (TensorFlow Lite / YOLO)** e **pipelines automatizados com 292 testes em CI**.
+Construo **APIs REST corporativas (Java 21, Spring Boot 3, PostgreSQL 16, Flyway, JWT/RBAC, Docker)** integradas a **aplicativos móveis 100% Offline-First**, **Visão Computacional On-Device (TensorFlow Lite / YOLO)** e **pipelines automatizados com 299 testes em CI**.
 
 🇺🇸 **Software Engineer** delivering end-to-end systems from **stateless Java 21 / Spring Boot 3 REST APIs** to **Offline-First Android (Kotlin/Jetpack Compose MVVM)** and **React Native** clients with on-device Edge AI and deterministic LLM guardrails.
 
@@ -87,14 +87,14 @@ Construo **APIs REST corporativas (Java 21, Spring Boot 3, PostgreSQL 16, Flyway
 
 ## 🏆 Sistemas em Destaque | Flagship Systems
 
-### 1. Sistemas Principais — Back-end, Full-Stack, Mobile & IA (**292 Testes Automatizados**)
+### 1. Sistemas Principais — Back-end, Full-Stack, Mobile & IA (**299 Testes Automatizados**)
 
 | Sistema | Problema Real & Arquitetura | Stack & Prova de Qualidade |
 | :--- | :--- | :--- |
-| **[⚡ CacauSync API](https://github.com/Igor8818/CacauSync)**<br/>*Enterprise Back-end & React 18 SPA* | Plataforma corporativa em **Java 21 + Spring Boot 3.3** e **React 18 + TypeScript** para auditoria de ensaios genéticos no CEPEC/CEPLAC (940+ plantas / 104 clones). Inclui ingestão nativa de planilhas (`.xlsx` Apache POI / `.csv` RFC 4180), **sincronização em lote estritamente idempotente** (HTTP e túnel automático **USB ADB**), **Spring Security JWT (RBAC)**, erros **RFC 7807 (`ProblemDetail`)**, **PostgreSQL 16 + Flyway** e revisão vetorial em **HTML5 Canvas**. | `Java 21` `Spring Boot 3.3` `PostgreSQL 16` `Flyway` `JWT / RBAC` `React 18` `TypeScript` `Docker` **`59 Testes JUnit 5`** `CI` |
+| **[⚡ CacauSync API](https://github.com/Igor8818/CacauSync)**<br/>*Enterprise Back-end & React 18 SPA* | Plataforma corporativa em **Java 21 + Spring Boot 3.3** e **React 18 + TypeScript** para auditoria de ensaios genéticos no CEPEC/CEPLAC (940+ plantas / 104 clones). Inclui ingestão nativa de planilhas (`.xlsx` Apache POI / `.csv` RFC 4180), **sincronização em lote estritamente idempotente** (HTTP e túnel automático **USB ADB** dual-package), **Spring Security JWT (RBAC)**, erros **RFC 7807 (`ProblemDetail`)**, **PostgreSQL 16 + Flyway** e revisão vetorial em **HTML5 Canvas**. | `Java 21` `Spring Boot 3.3` `PostgreSQL 16` `Flyway` `JWT / RBAC` `React 18` `TypeScript` `Docker` **`61 Testes JUnit 5`** `CI` |
 | **[🏋️ FocusLift](https://github.com/Igor8818/focuslift)**<br/>*Full-Stack Cloud, Mobile & AI Coach* | Plataforma completa de progressão de treinos em **5 idiomas (`PT/EN/ES/DE/FR`, `kg/lbs`)** com APK publicado. Conecta app **100% Offline-First (SQLite reativo)** a API **Java 21 (Virtual Threads) + Spring Boot 3.4** com sincronização bidirecional via *tombstones*, autenticação JWT, rate limiting, observabilidade Actuator, **motor ACWR de fadiga/lesão** e **AI Coach 2.0 multi-turno (Gemini 2.5 Flash)** blindado por guardrail determinístico em Java (`ProgressionMathEngine`). | `Java 21` `Spring Boot 3.4` `PostgreSQL 16` `React Native` `Expo` `TypeScript` `SQLite` `Docker` **`99 Testes CI`** `(24 JUnit 5 + 75 Vitest)` |
 | **[🧬 BreedAI](https://github.com/Igor8818/BreedAI)**<br/>*Android Open-Source MVVM & Universal Edge AI* | Plataforma Android nativa (`com.igor.breedai`, arquitetura **MVVM com `BreedAIViewModel` + `StateFlow`** e build **R8/ProGuard** para Google Play). Executa **runtime Universal YOLO/SSD** em tempo real (`[1,C,N]`, `End2End NMS [1,N,6]`, `EfficientDet 2-out`, `INT8`/`UINT8`/`FLOAT32`, metadados Ultralytics), **parser streaming nativo de Excel (`.xlsx` via ZIP + SAX)**, conversão de rendimento comercial (`@`/kg/sc/cx), ranking por tratamento e exportação de pacote ZIP via *streaming*. | `Kotlin 2.0` `Jetpack Compose` `MVVM / StateFlow` `CameraX` `TensorFlow Lite` `MIT License` **`85 Testes Unitários`** `CI` |
-| **[📱 CacauApp](https://github.com/Igor8818/CacauApp)**<br/>*Android Offline-First & Dual-Model CV* | Aplicativo Android nativo utilizado em campo sem internet para contagem biométrica e diagnóstico fitossanitário do cacaueiro. Executa **pipeline duplo de Visão Computacional YOLOv8**, pré-processamento por **Letterbox isomórfico (`640x640`)** com *snap* geométrico pós-captura (*Human-in-the-Loop*), persistência atômica (`AtomicFile`), cálculo de rendimento clonal e auto-descoberta de rede `/24` + ponte USB ADB para sync em 1 clique com o CacauSync. | `Kotlin 2.0` `Jetpack Compose` `CameraX` `TensorFlow Lite` `YOLOv8` `OkHttp` **`49 Testes Unitários`** `CI` |
+| **[📱 CacauApp](https://github.com/Igor8818/CacauApp)**<br/>*Android Offline-First MVVM & Dual-Model CV* | Aplicativo Android nativo (`br.gov.ceplac.cepec.cacauapp`, arquitetura **MVVM com `CacauViewModel` + `StateFlow`**, build **R8/ProGuard**) utilizado em campo sem internet para contagem biométrica e diagnóstico fitossanitário do cacaueiro. Executa **pipeline duplo YOLOv8** (GPU Delegate + XNNPACK), pré-processamento por **Letterbox (`640x640`)** com *snap* geométrico pós-captura (*Human-in-the-Loop*), persistência atômica (`AtomicFile`), exportação ZIP via *streaming*, rendimento clonal (`@/ha`) e ponte HTTP `/24` + USB ADB para sync em 1 clique com o CacauSync. | `Kotlin 2.0` `Jetpack Compose` `MVVM / StateFlow` `CameraX` `TensorFlow Lite` `YOLOv8` `OkHttp` **`54 Testes Unitários`** `CI` |
 
 ---
 
@@ -115,7 +115,7 @@ Construo **APIs REST corporativas (Java 21, Spring Boot 3, PostgreSQL 16, Flyway
 * **Sistemas Offline-First & Sincronização Distribuída:** Escrita local transacional (`SQLite` e `AtomicFile`), exportação ZIP via *streaming* anti-OOM, chaves de idempotência contra retransmissões em redes instáveis, pareamento de mídia por `SHA-256` e reconciliação bidirecional por *tombstones*.
 * **Segurança Corporativa & Persistência Versionada:** Autenticação *stateless* via Bearer Token **JWT com RBAC** (`Spring Security 6`), respostas padronizadas de erro (`RFC 7807 ProblemDetail`), rate limiting, containers **Docker** e migrações versionadas em **PostgreSQL 16 + Flyway**.
 * **IA Aplicada em Produção (Edge AI & LLM Guardrails):** Inferência *on-device* otimizada (CPU multithread + XNNPACK, reuso de buffers nativos e quantização `INT8`/`FLOAT32`) e integração com LLMs protegida por validação matemática determinística em Java.
-* **Testes Automatizados & CI/CD:** **292 testes automatizados** (`99` FocusLift [24 JUnit 5 + 75 Vitest] + `85` BreedAI + `59` CacauSync + `49` CacauApp) — **100% dos 4 sistemas principais com pipelines ativos em GitHub Actions CI**.
+* **Testes Automatizados & CI/CD:** **299 testes automatizados** (`99` FocusLift [24 JUnit 5 + 75 Vitest] + `85` BreedAI + `61` CacauSync + `54` CacauApp) — **100% dos 4 sistemas principais com pipelines ativos em GitHub Actions CI**.
 
 ---
 
